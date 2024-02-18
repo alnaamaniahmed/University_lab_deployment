@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab4</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Container for the select dropdown and form -->
+    <div id="container">
+      <!-- Dropdown for selecting the day of the week -->
+      <select name="daysOfTheWeek" id="d-o-w">
+        <option value="">-Please select an option-</option>
+        <option value="mon" id="mon">Monday</option>
+        <option value="tue" id="tue">Tuesday</option>
+        <option value="wed" id="wed">Wednesday</option>
+        <option value="thu" id="thu">Thursday</option>
+        <option value="fri" id="fri">Friday</option>
+        <option value="sat" id="sat">Saturday</option>
+        <option value="sun" id="sun">Sunday</option>
+      </select>
+      <!-- Form for inputting a number and submitting -->
+      <form action="#" method="post">
+        <input type="number" id="numberInput" />
+        <input type="button" name="submit" value="Submit" onclick="result()" />
+      </form>
+      <!-- Div where the result will be displayed -->
+      <div id="result"></div>
+    </div>
+    <!-- Link to the external JavaScript file -->
+    <script src="./script.js"></script>
+  </body>
+</html>
